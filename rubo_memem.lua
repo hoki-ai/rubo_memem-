@@ -2678,9 +2678,9 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
 end
 v16.Home:AddButton({
     Title = "hihi",
-    Description = "",
+    Description = "đừng vào cấm ai thick thì xem",
     Callback = function()
-        setclipboard("có loon");
+        setclipboard("https://xem18.lol/the-loai/video-xnxx/");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
@@ -2802,7 +2802,7 @@ spawn(function()
     end
 end);
 local v50 = v16.Main:AddToggle("ToggleMobAura", {
-    Title = "đánh Quái Gần",
+    Title = "đánh Quái ở Gần",
     Description = "",
     Default = false
 });
@@ -3094,7 +3094,7 @@ end);
 if Sea3 then
     local v484 = v16.Main:AddSection("Xương");
     local v485 = v16.Main:AddParagraph({
-        Title = "Xương Trạng Thái",
+        Title = "Trạng Thái Xương",
         Content = ""
     });
     spawn(function()
@@ -4742,7 +4742,7 @@ spawn(function()
     end);
 end);
 local v68 = v16.Sea:AddToggle("Togglelockmoon", {
-    Title = "Nhìn Trăng Và Dùng Tộc",
+    Title = "Nhìn Trăng và bật Tộc",
     Description = "",
     Default = false
 });
@@ -6333,7 +6333,7 @@ spawn(function()
     end
 end);
 local v87 = v16.Setting:AddToggle("ToggleAutoKen", {
-    Title = "Bật Haki Quan Sât",
+    Title = "Bật Haki Quan Sát",
     Description = "",
     Default = false
 });
@@ -6614,7 +6614,7 @@ spawn(function()
     end
 end);
 local v107 = v16.Stats:AddToggle("ToggleMelee", {
-    Title = "Nâng đánh",
+    Title = "Nâng melee",
     Description = "",
     Default = false
 });
@@ -7491,7 +7491,7 @@ spawn(function()
 end);
 local v56 = v16.Fruit:AddSection("Định Vị");
 local v130 = v16.Fruit:AddToggle("ToggleEspPlayer", {
-    Title = "Người Chơi",
+    Title = "Định vị Người Chơi",
     Description = "",
     Default = false
 });
@@ -7501,7 +7501,7 @@ v130:OnChanged(function(v345)
 end);
 v17.ToggleEspPlayer:SetValue(false);
 local v131 = v16.Fruit:AddToggle("ToggleEspFruit", {
-    Title = "Trái",
+    Title = "Định vịTrái",
     Description = "",
     Default = false
 });
@@ -7514,7 +7514,7 @@ v131:OnChanged(function(v346)
 end);
 v17.ToggleEspFruit:SetValue(false);
 local v132 = v16.Fruit:AddToggle("ToggleEspIsland", {
-    Title = "Đảo",
+    Title = "Định vịĐảo",
     Description = "",
     Default = false
 });
@@ -7527,7 +7527,7 @@ v132:OnChanged(function(v347)
 end);
 v17.ToggleEspIsland:SetValue(false);
 local v133 = v16.Fruit:AddToggle("ToggleEspFlower", {
-    Title = "Hoa",
+    Title = "Định vịHoa",
     Description = "",
     Default = false
 });
@@ -7556,7 +7556,7 @@ spawn(function()
     end
 end);
 local v134 = v16.Fruit:AddToggle("ToggleEspRealFruit", {
-    Title = "Trái Dứa Khớm Táo",
+    Title = " Định vị Trái Dứa chuối Táo",
     Description = "",
     Default = false
 });
@@ -7968,7 +7968,7 @@ spawn(function()
 end);
 if Sea2 then
     v16.Raid:AddButton({
-        Title = "Bay Đến Chỗ Tập Kích",
+        Title = "Bay Đến Chỗ raid",
         Description = "",
         Callback = function()
             Tween2(CFrame.new(- 6438.73535, 250.645355, - 4501.50684));
@@ -7976,7 +7976,7 @@ if Sea2 then
     });
 elseif Sea3 then
     v16.Raid:AddButton({
-        Title = "Bay Đến Chỗ Tập Kích",
+        Title = "Bay Đến Chỗ raid",
         Description = "",
         Callback = function()
             game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("requestEntrance", Vector3.new(- 5075.50927734375, 314.5155029296875, - 3150.0224609375));
@@ -8705,7 +8705,7 @@ local v56 = v16.Misc:AddSection("Khác");
 local v151 = v16.Misc:AddToggle("ToggleRejoin", {
     Title = "Tham Gia Máy Chủ Lại",
     Description = "",
-    Default = true
+    Default = false
 });
 v151:OnChanged(function(v381)
     _G.AutoRejoin = v381;
@@ -9048,7 +9048,7 @@ v165:OnChanged(function(v397)
     end
 end);
 local v166 = v16.Sea:AddParagraph({
-    Title = "Hoàn Thành Ải Draco V4 (Sớm Ra)",
+    Title = "Hoàn Thành Ải Draco V4",
     Content = ""
 });
 local v167 = v16.Sea:AddToggle("ToggleTrialTeleport", {
